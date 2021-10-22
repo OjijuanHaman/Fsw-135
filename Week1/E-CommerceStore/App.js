@@ -10,7 +10,7 @@ app.use(morgan('dev'))
 //connect to DB
 
 
-mongoose.connect('mongodb: //localhost:27017/inventorydb',
+mongoose.connect('mongodb://localhost:27017/inventorydb',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
