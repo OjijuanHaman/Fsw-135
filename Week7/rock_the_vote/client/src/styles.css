@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  outline: none;
+  text-decoration: none;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar__link {
+  color:rgb(180, 9, 9);
+  font-weight: bold;
+}
+
+.navbar__link--active {
+  color: rgb(33, 190, 19);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Yuji+Boku&display=swap');
+.container > h1 {
+  font-size: 3em;
+  font-family: 'Shadows Into Light', cursive;
+  color:  rgb(180, 9, 9);
+  margin: 24px;
+  align-self: center;
+}
+
+.container > p {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  padding: 15px;
+  border-bottom: 1px solid  rgb(180, 9, 9);
+  margin: 5px 0;
+}
+
+#signin-login {
+  margin: 16px;
+  color:  rgb(180, 9, 9);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#signin-login:hover {
+  cursor: pointer;
+}
+
+.container > form {
+  border: 2px solid rgb(180, 9, 9);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgba(165, 165, 165, 0.6);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > form > h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.container > form > input {
+  margin: 16px 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.container > form > textarea {
+  margin: 16px 8px;
+  padding: 8px;
+  border-radius: 4px;
+  height: 200px;
+}
+
+.container > form > button {
+  margin: 16px 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.issueContainer {
+  border: 2px solid  rgb(180, 9, 9);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(165, 165, 165, 0.6);
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.issuePostContent {
+  margin: 10px;
+  font-style: italic;
+}
+
+.issueContainer > p, span {
+  padding: 5px;
+}
+
+.issueContainer > form > button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.issueContainer > form > input {
+  padding: 5px;
+  margin: 5px;
+  width: 75%;
+}
+
+hr {
+  margin: 10px;
+}
+
+#usernameOnIssue {
+  color:  rgb(180, 9, 9);
+  font-weight: bold;
+}
+
+.comment {
+  font-style: italic;
+  padding: 5px;
+}
